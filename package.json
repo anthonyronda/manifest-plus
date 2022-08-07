@@ -1,14 +1,10 @@
 {
   "name": "manifest-plus",
   "description": "The Manifest+ specification is an unofficial community developed extension to the official Foundry VTT manifest specification for rich metadata.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "League-of-Foundry-Developers",
   "bugs": "https://github.com/League-of-Foundry-Developers/manifest-plus/issues",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "gitdown": "^3.0.0"
-  },
   "homepage": "https://github.com/League-of-Foundry-Developers/manifest-plus",
   "keywords": [
     "foundry vtt",
@@ -19,5 +15,8 @@
   "repository": "League-of-Foundry-Developers/manifest-plus",
   "scripts": {
     "create-specification": "gitdown ./.specification/ManifestPlus.md --output-file ./ManifestPlus.md"
+  },
+  "devDependencies": {
+    "gitdown": "^3.1.5"
   }
 }
